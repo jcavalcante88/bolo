@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promova Seu Produto Hotmart</title>
+    <!-- Google Ads Global Tag -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-YOUR_CONVERSION_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-YOUR_CONVERSION_ID");
+    </script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 2rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      .container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .product-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+      }
+      .cta-button:hover {
+        background-color: #218838;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+        .cta-button {
+          font-size: 1rem;
+          padding: 0.8rem 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Descubra o Melhor Curso Online!</h1>
+    </header>
+    <div class="container">
+      <h2>Transforme Sua Vida com Este Produto</h2>
+      <p>
+        Este curso incrível da Hotmart vai ajudar você a alcançar seus
+        objetivos! Aprenda com especialistas e comece hoje mesmo.
+      </p>
+      <img
+        src="https://via.placeholder.com/600x400"
+        alt="Produto Hotmart"
+        class="product-image"
+      />
+      <a
+        href="SEU_HOTLINK_AQUI"
+        class="cta-button"
+        onclick="gtag('event', 'click', {'event_category': 'Hotmart', 'event_label': 'CTA_Click'});"
+        >Quero Comprar Agora!</a
+      >
+      <p>
+        <small
+          >Este é um link de afiliado. Ao comprar, posso receber uma comissão
+          sem custo adicional para você.</small
+        >
+      </p>
+    </div>
+    <footer>
+      <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
